@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    color: #5983d6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    min-height: 100vh;
+    margin: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #0e75e2;
+    margin-bottom: 20px;
+}
+
+#reloadDataButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#reloadDataButton:hover {
+    background-color: #0056b3;
+}
+
+#userDataContainer {
+    margin-top: 20px;
+    text-align: left; 
+}
+
+.user-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.user-card h2 {
+    margin-top: 0;
+    color: #f4c26d;
+    font-size: 1.3em;
+}
+
+.user-card p {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+.user-card a{
+     color: #5983d6;
+     text-decoration: none;
+}
+.user-card span {
+    margin: 5px 0;
+    font-size: 0.95em;
+    text-transform: capitalize;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
